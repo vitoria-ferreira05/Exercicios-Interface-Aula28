@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb6b91c4-4a1e-4974-9bcc-6ffe42739823" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios Interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio1/Exercicio1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio1/FabricaLampada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio1/Fluorescente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio1/Incandescente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio1/Lampada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio2/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio2/ContaPoupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio2/SeguroDeVida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio2/Tributos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio2/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio2/ContaPoupanca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +30,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Exercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercicio1.Exercicio1" />
