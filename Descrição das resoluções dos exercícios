@@ -1,0 +1,18 @@
+# Exercicios-Interface-Aula28
+Exercícios utilizando interfaces 
+
+Exercicio 1
+1. Foi criado a interface Lampada com métodos abstratos ligar(); e desligar();
+2. Foi criado a classe mae FabricaLampada, e foi criado o metodo construir(); com estrutura de condiçao if 
+3. Foram criadas as classes Fluorescente e Incandescente, ambas receberam a implementaçao do metodo abstrato da interface Lampada, e nas classes criei um atributo do tipo boolean Ligado, eles possuem nos métodos estrutura de condiçao if para comparar se é false ou true
+4. Na classe Exercicio1Main() foram instanciadas as classes Fluorescente e Incandescente, foi criada uma entrada de dados do tipo String para o usuário escolher o tipo de lampada que ele deseja
+5. Para utilizar os metodos, foi criado uma estrutura de condiçao while(true) para ter um menu que o usuario escolhe a opçao ligar e desligar a lampada, e foi criado também um switch com 2 cases e nos cases foi inserido if com condiçao de comparaçao equals e chamand os metodos das classes para ligar ou desligar a lampada.
+
+
+Exercicio 2
+1. Foi criada a interface Tributos, com metodo abstrato calcularTributos(), com constantes nome, cpf, numeroConta ;
+2. Foi criada a classe ContaPoupanca com o atributo double saldoContaPoupanca, criei o construtor e o getSaldoContaPoupanca
+3. Foi criada a classe ContaCorrente com o atributo double saldoContaCorrente, criei o construtor e o getSaldoContaCorrente
+4. Foi criada a classe SeguroDeVida com o atributo double seguroDeVida, criei o construtor e o getSeguroDeVida
+5. Na classe Main foram instanciadas as classes ContaPoupanca, ContaCorrente e SeguroDeVida e retornei junto com os prints o metodo de cada calcularTributos que foi implementado nas classes.
+
