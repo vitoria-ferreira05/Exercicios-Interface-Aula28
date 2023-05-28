@@ -9,15 +9,15 @@ public class Exercicio1 {
 
         Scanner sc = new Scanner(System.in);
 
-        Fluorescente lampadaFluorecente = new Fluorescente();
-        Incandescente lampadaIncandescente = new Incandescente();
-
         System.out.println("Temos dois tipos de lampadas: incandescente e fluorescente. Qual voce quer construir?");
         String tipoDeLampada = sc.next();
+        Lampada lampada = FabricaLampada.construir(tipoDeLampada);
 
+        if(lampada == null){
+            System.out.println("Voce digitou um tipo de lampada invalido!");
+        }
 
         System.out.println("Voce escolheu a lampada " + tipoDeLampada + " , e so para informar a marca da sua lampada e: " + MARCA);
-
 
         while (true){
             System.out.println("Agora vamos testar a lampada que voce escolheu \n" +
@@ -28,20 +28,10 @@ public class Exercicio1 {
 
             switch (opcao){
                 case 1:
-                    if (tipoDeLampada.equals("incandescente")){
-                        lampadaIncandescente.ligar();
-                    }
-                    if (tipoDeLampada.equals("fluorescente")){
-                        lampadaFluorecente.ligar();
-                    }
+                        lampada.ligar();
                     break;
                     case 2:
-                        if (tipoDeLampada.equals("incandescente")){
-                            lampadaIncandescente.desligar();
-                        }
-                        if (tipoDeLampada.equals("fluorescente")){
-                            lampadaFluorecente.desligar();
-                        }
+                        lampada.desligar();
                 break;
                 default:
                     System.out.println("Opcao incorreta, teremos que iniciar novamente :)");
@@ -49,6 +39,5 @@ public class Exercicio1 {
                     break;
             }
         }
-
     }
 }
